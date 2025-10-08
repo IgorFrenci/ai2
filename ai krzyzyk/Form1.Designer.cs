@@ -30,6 +30,7 @@
         {
             tableLayoutPanel1 = new TableLayoutPanel();
             panel1 = new Panel();
+            label1 = new Label();
             button1 = new Button();
             button2 = new Button();
             button3 = new Button();
@@ -40,6 +41,7 @@
             button8 = new Button();
             button9 = new Button();
             tableLayoutPanel1.SuspendLayout();
+            panel1.SuspendLayout();
             SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -73,11 +75,22 @@
             // panel1
             // 
             tableLayoutPanel1.SetColumnSpan(panel1, 3);
+            panel1.Controls.Add(label1);
             panel1.Dock = DockStyle.Fill;
             panel1.Location = new Point(3, 3);
             panel1.Name = "panel1";
             panel1.Size = new Size(794, 106);
             panel1.TabIndex = 0;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(375, 42);
+            label1.Name = "label1";
+            label1.Size = new Size(82, 15);
+            label1.TabIndex = 0;
+            label1.Text = "Ruch Gracza X";
+            label1.Click += label1_Click;
             // 
             // button1
             // 
@@ -178,6 +191,8 @@
             Name = "Form1";
             Text = "Form1";
             tableLayoutPanel1.ResumeLayout(false);
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -194,5 +209,6 @@
         private Button button7;
         private Button button8;
         private Button button9;
+        private Label label1;
     }
 }

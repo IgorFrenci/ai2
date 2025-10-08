@@ -14,21 +14,27 @@ namespace ai_krzyzyk
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void ButtonClick(object sender, EventArgs e)
         {
             Button button = (Button)sender;
             button.Text = player.ToString();
             if (player == 'X')
+            {
                 player = 'O';
+                label1.Text = "Ruch gracza: O";
+            }
             else
+            {
                 player = 'X';
-            button.Enabled = false;
+                label1.Text = "Ruch gracza: X";
+            }
+                button.Enabled = false;
 
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
 
         }
     }
