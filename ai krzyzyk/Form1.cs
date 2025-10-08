@@ -16,5 +16,11 @@ namespace ai_krzyzyk
         {
 
         }
+
+        private void ButtonClick(object sender, EventArgs e)
+        {
+            Button button = (Button)sender;
+            button.Text = "X";
+        }
     }
 }

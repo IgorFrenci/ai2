@@ -87,6 +87,7 @@
             button1.Size = new Size(260, 106);
             button1.TabIndex = 1;
             button1.UseVisualStyleBackColor = true;
+            button1.Click += ButtonClick;
             // 
             // button2
             // 
@@ -96,6 +97,7 @@
             button2.Size = new Size(260, 106);
             button2.TabIndex = 2;
             button2.UseVisualStyleBackColor = true;
+            button2.Click += ButtonClick;
             // 
             // button3
             // 
@@ -105,7 +107,7 @@
             button3.Size = new Size(260, 106);
             button3.TabIndex = 3;
             button3.UseVisualStyleBackColor = true;
-            button3.Click += button3_Click;
+            button3.Click += ButtonClick;
             // 
             // button4
             // 
@@ -115,6 +117,7 @@
             button4.Size = new Size(260, 108);
             button4.TabIndex = 4;
             button4.UseVisualStyleBackColor = true;
+            button4.Click += ButtonClick;
             // 
             // button5
             // 
@@ -124,6 +127,7 @@
             button5.Size = new Size(260, 106);
             button5.TabIndex = 5;
             button5.UseVisualStyleBackColor = true;
+            button5.Click += ButtonClick;
             // 
             // button6
             // 
@@ -133,6 +137,7 @@
             button6.Size = new Size(260, 108);
             button6.TabIndex = 6;
             button6.UseVisualStyleBackColor = true;
+            button6.Click += ButtonClick;
             // 
             // button7
             // 
@@ -142,6 +147,7 @@
             button7.Size = new Size(262, 106);
             button7.TabIndex = 7;
             button7.UseVisualStyleBackColor = true;
+            button7.Click += ButtonClick;
             // 
             // button8
             // 
@@ -151,6 +157,7 @@
             button8.Size = new Size(262, 106);
             button8.TabIndex = 8;
             button8.UseVisualStyleBackColor = true;
+            button8.Click += ButtonClick;
             // 
             // button9
             // 
@@ -160,6 +167,7 @@
             button9.Size = new Size(262, 108);
             button9.TabIndex = 9;
             button9.UseVisualStyleBackColor = true;
+            button9.Click += ButtonClick;
             // 
             // Form1
             // 
