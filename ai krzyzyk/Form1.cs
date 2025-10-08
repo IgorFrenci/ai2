@@ -27,7 +27,7 @@ namespace ai_krzyzyk
                 player = 'O';
             else
                 player = 'X';
-
+            button.Enabled = false;
 
 
         }
