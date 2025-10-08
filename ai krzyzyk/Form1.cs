@@ -2,6 +2,8 @@ namespace ai_krzyzyk
 {
     public partial class Form1 : Form
     {
+        char player = 'X';
+
         public Form1()
         {
             InitializeComponent();
@@ -20,7 +22,14 @@ namespace ai_krzyzyk
         private void ButtonClick(object sender, EventArgs e)
         {
             Button button = (Button)sender;
-            button.Text = "X";
+            button.Text = player.ToString();
+            if (player == 'X')
+                player = 'O';
+            else
+                player = 'X';
+
+
+
         }
     }
 }
